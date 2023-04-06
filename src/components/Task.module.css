@@ -1,0 +1,78 @@
+.task{
+  background-color: var(--gray-600);
+  border-radius: 8px;
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: space-between;
+  align-content: flex-start;
+  font-size: 0.875rem;
+  margin: 0.375rem 0;
+  padding: 1rem;
+}
+
+.info{
+  /* background-color: blue; */
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  color: var(--gray-100);
+  margin-right: 1rem;
+}
+
+.info input{
+  background-color: green;
+}
+
+.info img{
+  visibility: collapse;
+}
+
+.concluded{
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
+
+.concluded img{
+  visibility: visible;
+}
+
+.task button{
+  position: initial;
+  background-color: transparent;
+  border: 0;
+  color: var(--gray-400);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  width: 2rem;
+  height: 2rem;
+  line-height: 0;
+}
+
+.task button:hover{
+  color: var(--danger);
+  cursor: pointer;
+  background-color: var(--gray-400);
+  border-radius: 4px;
+}
+
+.labelTask{
+  display: flex;
+  gap: 0.8rem;
+  align-items: flex-start;
+}
+
+.labelTask:hover{
+  cursor: pointer;
+}
+
+/* 
+@media (max-width: 768px){
+
+  html {
+    font-size: 87.5%;
+  }
+} */

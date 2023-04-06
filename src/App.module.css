@@ -1,0 +1,12 @@
+.wrapper{
+  display: grid;
+  grid-template-columns:1fr;
+  align-items: flex-start;
+}
+
+@media (max-width: 768px){
+
+  button, span, input {
+    font-size: 1.2rem!important;
+  }
+}
